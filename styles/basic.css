@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;    
+    outline: 0;
+}
+
+body {
+    font: 12px/1.5 "微软雅黑","Microsoft Yahei";
+    color: #444;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 110px;
+}
+
+header {
+    position: fixed;
+    height: 110px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: url('http://homepage.csu.edu.cn/images/hd-bg1.jpg');
+    background-size: cover;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header span {
+    color: #ffffff;
+    font-size: 18px;
+    flex-grow: 1;
+    margin: 1em 0.25em;
+}
+
+.header-wrapper {
+    margin: 0px 5%;
+}
+
+.header-nav {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+
+#logo {
+    flex-grow: 2;
+}
+
+
+footer {
+    background-image: url('http://homepage.csu.edu.cn/images/fd-bg1.png');
+    background-size: cover;
+}
